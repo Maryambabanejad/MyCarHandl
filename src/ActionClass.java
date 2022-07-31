@@ -12,7 +12,9 @@ public class ActionClass {
         System.out.print("How much petrol did your car ? ");
         double petroluse = keyboerdInPut . nextDouble();
         double result = 100*petroluse/distance;
-        System.out.println(result);
+        //System.out.println(Math.round (result));
+        //System.out.println(result);
+        System.out.println(" Dear " + objectOne.returnName()  +  " your "  +  objectOne.returnCarName() + " carconsum is :  "  +  Math.round(result));
         keyboerdInPut . close();
 
 
