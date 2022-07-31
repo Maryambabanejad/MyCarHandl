@@ -14,7 +14,7 @@ public class ActionClass {
         double result = 100*petroluse/distance;
         //System.out.println(Math.round (result));
         //System.out.println(result);
-        System.out.println(" Dear " + objectOne.returnName()  +  " your "  +  objectOne.returnCarName() + " carconsum is :  "  +  Math.round(result));
+        System.out.println(" Dear " + objectOne.returnName()  +  " your "  +  objectOne.returnCarName() + " carconsum is :  "  +  Math.round(result)  +  " liters petrol in 100 kilometers ");
         keyboerdInPut . close();
 
 
