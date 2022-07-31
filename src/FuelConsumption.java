@@ -14,6 +14,5 @@ public class FuelConsumption {
         public String returnCarName() {
             return carName;
         }
-
     }
 
